@@ -10,23 +10,23 @@ html {
 /* Color Palette */
 
 /* # - color 1 */
-#color1 {
+.color1 {
 	background-color: #8C030E;
 	color: white;
 }
 
 /* # - color 2 */
-#color2 {
+.color2 {
 	background-color: #8C031C;
 }
 
 /* # - color 3 */
-#color3 {
+.color3 {
 	background-color: #260104;
 }
 
 /* # - color 4 */
-#color4 {
+.color4 {
 	background-color: #0D0D0D;
 }
 
@@ -42,7 +42,6 @@ h1, h2, h3 {
 
 p, li, a {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	/* color: white; */
 }
 
 h1 {
@@ -84,14 +83,20 @@ header, footer {
 
 .profile-img {
 	border-radius: 50%;
-	/* width: 300px;
-	float: left;
-	margin-right: 30px; */
 }
 
-header h2 {
-	font-size: 30px;
-	font-weight: 300;
+.display {
+	text-align: center;
+}
+
+.display a {
+	font-family: 'Scheherazade New', serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none; /* Got rid of the underlines */
+	padding: 10px;
+	display: inline-block;
 }
 
 .column-narrow {
@@ -111,16 +116,33 @@ footer {
 	text-align: center;
 }
 
-.contact-info a {	
-	padding: 10px;
-	color: white;
-	display: inline-block;
+footer h2 {
+	margin-bottom: 10px; /* Extra spacing for the icons below it to look more nicely */
 }
 
-/* Extra styling below to align the text content well. Uncomment if you would like to see the webpage without them. */
+.contact-info {
+	font-size: 26px; /* Increased the size of the icons */
+}
+
+.contact-info a {	
+	color: white;
+}
+
+i {
+	padding: 12px 20px; /* Spacing out the icons */
+}
 
 /* Work Experience
 ------------------------------------*/
+
+.about {
+	color: white;
+}
+
+.about h2 {
+	font-size: 30px;
+	font-weight: 300;
+}
 
 .work-title p, .work-description p {
 	margin: 0;
@@ -137,4 +159,14 @@ footer {
 
 .degree {
 	margin: 0;
+}
+
+.image-bg {
+	background: no-repeat fixed url("../assets/LosAngeles.jpg");
+	background-position: top 100px left 0; /* Positions the background nicely thanks to the fixed display */
+	color: white; /* For the text within the section this class is in */
+}
+
+.alpha-bg {
+	background-color: rgba(163, 24, 5, 0.3);
 }

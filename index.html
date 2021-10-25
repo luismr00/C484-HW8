@@ -8,24 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Yanone font family has 3 different weights added -->
     <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&family=Yanone+Kaffeesatz:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8b5da35859.js" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
+    <header>
+        <nav class="display">
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK EXPERIENCE</a>
+            <a href="#education">EDUCATION</a>
+            <a href="#footer">CONTACT</a>
+            <a href="./assets/Resume.pdf">DOWNLOAD PDF</a>
+        </nav>
+    </header>
+    
     <!-- // Intro -->
-    <header id="color4">
+    <section class="color4" id="about">
         <div class="content-wrap">
-            <img src="assets/luis.JPG" class="profile-img column-narrow" alt="Luis Rangel">
-            <div class="column-wide">
-                <h1>Luis Rangel</h1>
-                <h2>Software Engineer</h2>
-                <p>Computer Science student and military veteran from CSU Northridge with a specialized interest towards Full-Stack Development.</p>
+            <div class="about">
+                <img src="assets/luis.JPG" class="profile-img column-narrow" alt="Luis Rangel">
+                <div class="column-wide">
+                    <h1>Luis Rangel</h1>
+                    <h2>Software Engineer</h2>
+                    <p>Computer Science student and military veteran from CSU Northridge with a specialized interest towards Full-Stack Development.</p>
+                </div>
             </div>
         </div>
-    </header>
+    </section>
     
     <main> 
         <!-- // Work Experience -->
-        <section>
+        <section id="work">
             <div class="content-wrap">
                 <h2 class="section-title">Work Experience</h2>
                     
@@ -95,48 +109,50 @@
             
         </section>
 
-        <section id="color1">
-            <div class="content-wrap">
-                <!-- // Education -->
-                <h2 class="section-title">Education</h2>
+        <section class="image-bg" id="education">
+            <div class="alpha-bg">
+                <div class="content-wrap">
+                    <!-- // Education -->
+                    <h2 class="section-title">Education</h2>
 
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>California State University Northridge (Aug 2020 - May 2022)</h3>
-                <p class="degree">B.S. Computer Science</p>
-                
-                <!-- Add as many paragraphs as you need. -->
-                <p>Transferred from Los Angeles City College to pursue a Bachelor's in Computer Science.</p>
-                <!-- End of school details. -->
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <h3>California State University Northridge (Aug 2020 - May 2022)</h3>
+                    <p class="degree">B.S. Computer Science</p>
+                    
+                    <!-- Add as many paragraphs as you need. -->
+                    <p>Transferred from Los Angeles City College to pursue a Bachelor's in Computer Science.</p>
+                    <!-- End of school details. -->
 
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>Los Angeles City College (Jun 2017 - Jun 2020)</h3>
-                
-                <!-- Add as many paragraphs as you need. -->
-                <p>Community college where I took my GE's and major classes to transfer out later to CSUN.</p>
-                <!-- End of school details. -->
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <h3>Los Angeles City College (Jun 2017 - Jun 2020)</h3>
+                    
+                    <!-- Add as many paragraphs as you need. -->
+                    <p>Community college where I took my GE's and major classes to transfer out later to CSUN.</p>
+                    <!-- End of school details. -->
 
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>Navy Medicine Training Support Center (Jun 2012 - Dec 2012)</h3>
-                
-                <!-- Add as many paragraphs as you need. -->
-                <p>Military Medical School designated to prepare military members from all branches to work in the medical field within their respective branch of service.</p>
-                <!-- End of school details. -->
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <h3>Navy Medicine Training Support Center (Jun 2012 - Dec 2012)</h3>
+                    
+                    <!-- Add as many paragraphs as you need. -->
+                    <p>Military Medical School designated to prepare military members from all branches to work in the medical field within their respective branch of service.</p>
+                    <!-- End of school details. -->
+                </div>
             </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
-    <footer id="color4">
+    <footer class="color4" id="footer">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:luismrangel7@gmail.com">luismrangel7@gmail.com</a>
-                <a href="http://web-portfolio-lmr.herokuapp.com/" target="_blank">Web Portfolio</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/in/luismrangel7/" target="_blank">LinkedIn</a>
-                <a href="#" target="_blank">Facebook</a>
+                <a href="mailto:luismrangel7@gmail.com" title="Email"><i class="far fa-envelope"></i></i></a>
+                <a href="http://web-portfolio-lmr.herokuapp.com/" title="Portfolio" target="_blank"><i class="fas fa-suitcase"></i></i></a>
+                <a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                <a href="https://www.linkedin.com/in/luismrangel7/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></i></a>
+                <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></i></a>
             </div>
 
             <p>Copyright 2021 by Luis Rangel</p>
